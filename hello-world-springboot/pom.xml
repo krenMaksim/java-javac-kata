@@ -75,6 +75,18 @@
 							<includeScope>runtime</includeScope>
 						</configuration>
 					</execution>
+					<execution>
+						<id>copy-dependencies-test</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}/lib-test/</outputDirectory>
+							<includeScope>test</includeScope>
+							<useSubDirectoryPerScope>true</useSubDirectoryPerScope>
+						</configuration>
+					</execution>
 				</executions>
 			</plugin>
 		</plugins>
