@@ -20,7 +20,7 @@
 
 #### Module path part
 1. There is a main hello world class.
-   1. Compile source code
+   1. Compile source code [IN PROGRESS]
    1. Run code
    1. Build and run a jar
    1. Build an executable jar
