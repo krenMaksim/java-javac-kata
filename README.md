@@ -20,12 +20,12 @@
 
 #### Module path part
 1. There is a main hello world class.
-   1. Compile source code [IN PROGRESS]
-   1. Run code
-   1. Build and run a jar
-   1. Build an executable jar
+   1. Compile source code [DONE]
+   1. Run code [DONE]
+   1. Build and run a jar [DONE]
+   1. Build an executable jar [DONE]
 1. There is a main hello world class with one third-party jar dependency. 
-   1. Compile source code
+   1. Compile source code [IN PROGRESS]
    1. Run code
    1. Build an executable fat jar
    1. Build an executable jar with class-path
