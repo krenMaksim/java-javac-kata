@@ -25,10 +25,9 @@
    1. Build and run a jar [DONE]
    1. Build an executable jar [DONE]
 1. There is a main hello world class with one third-party jar dependency. 
-   1. Compile source code [IN PROGRESS]
-   1. Run code
-   1. Build an executable fat jar
-   1. Build an executable jar with class-path
+   1. Compile source code [DONE]
+   1. Run code [DONE]
+   1. Build jar [DONE]
 1. There is a SpringBoot app with dependencies in separate folder. To get it run mvn command and remove all unnecessary files in the target folder.
    1. Compile source code
    1. Run app
