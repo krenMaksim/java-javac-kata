@@ -29,7 +29,7 @@
    1. Run code [DONE]
    1. Build jar [DONE]
 1. There is a SpringBoot app with dependencies in separate folder. To get it run mvn command and remove all unnecessary files in the target folder.
-   1. Compile source code [IN PROGRESS]
-   1. Run app
-   1. Compile tests
+   1. Compile source code [DONE]
+   1. Run app [DONE]
+   1. Compile tests [IN PROGRESS]
    1. Run test

@@ -1,12 +1,9 @@
 module com.kren.hello.world {
-	requires spring.boot;
-	opens com.kren.hello.world to spring.core, spring.beans, spring.context, spring.web;
-}
+    requires spring.boot;
+    requires spring.beans;
+    requires spring.boot.autoconfigure;
+    requires spring.context;
+    requires spring.web;
 
-/*
-OR
-
-open module com.kren.hello.world {
-	requires spring.boot;	
+    opens com.kren.hello.world to spring.core, spring.beans, spring.context, spring.web;
 }
-*/
