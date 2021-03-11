@@ -4,7 +4,7 @@
 ### Run
 `   $ java --module-path "target/classes;target/lib/compile" --add-modules java.instrument --module com.kren.hello.world/com.kren.hello.world.MainApp `
 
-### Consider approach running tests via class-path
+### Choosen an approach running tests via class-path. For maven-surefire-plugin useModulePath=false
 
 ### Compile tests
 `   $ javac --class-path "./target/lib/test/*;./target/lib/compile/*" -d ./target/test-classes/ $(find -P ./src/test/ -name '*.java') `
