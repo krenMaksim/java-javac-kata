@@ -1,5 +1,5 @@
-## -java-javac-kata
-###There are two modes: class path AND module path. 
+## java-javac-kata
+### There are two modes: class path AND module path. 
 
 #### Class path part
 1. There is a main hello world class.
