@@ -1,4 +1,4 @@
-## java-javac-kata
+## java-javac-kata (last done 2021/03/13)
 ### There are two modes: class path AND module path. 
 
 #### Class path part
